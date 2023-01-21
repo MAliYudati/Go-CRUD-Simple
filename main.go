@@ -8,7 +8,7 @@ import (
 	"net/http"      // this allows us to create a server in golang
 	"strconv"       // because the id that ill create using math.random will be an integer and then ill have to convert into a string
 
-	"github.com/gorilla/mux"
+	"github.com/gorilla/mux" // sebuah package
 )
 
 type Movie struct{
